@@ -1,0 +1,108 @@
+/*pallete
+#97c6c9
+#3a4072
+#b893bd
+#b1dbcf
+#74446d
+*/
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #74446d;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 0 20px;
+}
+/***********************fix horizontal overflow**************************/
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container{
+    .row{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+/************************************************************************/
+/** HEADER **/
+#header-nav {
+  background-color: #b1dbcf;
+  border-radius: 0;
+  border: 5px;
+
+  -webkit-animation: slidedown 1s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: slidedown 1s; /* Firefox < 16 */
+      -ms-animation: slidedown 1s; /* Internet Explorer */
+       -o-animation: slidedown 1s; /* Opera < 12.1 */
+          animation: slidedown 1s;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Josefin Sans', normal;
+  color: #3a4072;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  /*text-shadow: 1px 1px 1px #222;*/
+  margin-top:-8px;
+  line-height: .75;
+}
+a h2 { /* Restaurant name */
+  font-family: 'Oswald', sans-serif ;
+  color: #74446d;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  /*text-shadow: 1px 1px 1px #222;*/
+  margin-top:-8px;
+  line-height: .75;
+  position:   absolute; 
+  right:10px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+.emscripten{
+  width:100%;
+  height:   100%;
+}
+.row{
+  width:80%;
+  height:80%;
+  margin-right:   auto; 
+  margin-left:  auto; 
+}
+#gameFatCat{
+  width:100%;
+
+  margin-right:   auto; 
+  margin-left:  auto; 
+}
+#gameImg img{
+width:  50px;
+height: 50px;
+margin: 20px;
+float: left;
+}
+#details{
+  width:100%;
+  height: 100%;
+  font-size: 14px;
+  margin-top:  20px;
+}
+#controlsdetails{
+  margin:20px;
+}
+#controlsdetails span{
+  font-family:  'Oswald', sans-serif  ;
+}
